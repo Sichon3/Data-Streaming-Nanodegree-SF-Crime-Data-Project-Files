@@ -50,7 +50,8 @@ spark-submit --packages org.apache.spark:spark-sql-kafka-0-10_2.11:2.3.4 --maste
 ```
 
 The `config` includes the configuration file for Spark.
-couldn`t submit progress because it takes very long to start apache spark structred streaming consumer
+
+NOTE! - Couldn`t submit progress because it took very long to start apache spark structred streaming consumer
 
 
 ## Questions
