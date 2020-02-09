@@ -32,7 +32,7 @@ python consumer_server.py
 ```
 
 This consumer will provide output as show in the screenshot below.
-Kafka Consumer Console Output.PNG
+(https://github.com/Sichon3/Data-Streaming-Nanodegree-SF-Crime-Data-Project-Files/blob/master/Kafka%20Consumer%20Console%20Output.PNG)
 
 4. Start Apache Spark Structured Streaming consumer:
 ```
