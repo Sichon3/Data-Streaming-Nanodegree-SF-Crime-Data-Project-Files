@@ -32,7 +32,7 @@ python consumer_server.py
 ```
 
 This consumer will provide output as show in the screenshot below.
-![Consumer server output](./Kafka Consumer Console Output.png)
+
 
 4. Start Apache Spark Structured Streaming consumer:
 ```
