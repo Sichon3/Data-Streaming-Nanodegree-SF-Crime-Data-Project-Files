@@ -53,6 +53,12 @@ Screenshot of the progress reporter after executing the Spark job.
 ![kafka consumer output](https://github.com/Sichon3/Data-Streaming-Nanodegree-SF-Crime-Data-Project-Files/blob/master/Progress%20ReportV2.PNG)
 
 
+### Spark Streaming UI
+Screenshot of the progress reporter after executing the Spark job.
+
+![kafka consumer output](https://github.com/Sichon3/Data-Streaming-Nanodegree-SF-Crime-Data-Project-Files/blob/master/Progress%20ReportV2.PNG)
+
+
 ## Questions
 
 1. How did changing values on the SparkSession property parameters affect the throughput and latency of the data?
@@ -61,5 +67,5 @@ The latency affects throughput, since the execution of the next batch waits unti
 
 2. What were the 2-3 most efficient SparkSession property key/value pairs? Through testing multiple variations on values, how can you tell these were the most optimal?
 
-We can monitor processedRowsPerSecond .
+We can monitor processedRowsPerSecond and thus see the most optimal variation.
 spark.default.parallelism - The default number of partitions in RDDs returned by transformations spark.streaming.kafka.maxRatePerPartition - Maximum rate at which data will be read from each kafka partition
