@@ -45,10 +45,9 @@ This consumer will provide output as show in the screenshot below.
 spark-submit --packages org.apache.spark:spark-sql-kafka-0-10_2.11:2.3.4 --master local[*] data_stream.py
 ```
 
-The `config` includes the configuration file for Spark.
 
-NOTE! - Couldn`t submit progress because it took very long to start apache spark structred streaming consumer
-
+### Progress Reporter
+Take a screenshot of your progress reporter after executing a Spark job.
 
 ## Questions
 
