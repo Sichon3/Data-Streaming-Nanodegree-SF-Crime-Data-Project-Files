@@ -30,11 +30,7 @@ The `config` directory includes configuration files for  Zookeeper & Kafka. Modi
 python kafka_server.py
 ```
 
-3. Start  consumer server to read JSON data from the Kafka topic:
-```
-python consumer_server.py
-```
-4. Display Output to the console
+3. Display Output to the console
 ```
 kafka-console-consumer --topic calls --from-beginning --bootstrap-server localhost:9092
 ```
