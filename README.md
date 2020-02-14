@@ -14,7 +14,7 @@ In this project I use Apache Spark Structured Streaming to analyze crimes in the
 ./start.sh
 ```
 
-run the following commands:
+run the following commands in seperate Terminals:
 
 
 1. Start Zookeeper and Kafka
