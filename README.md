@@ -37,7 +37,8 @@ kafka-console-consumer --topic calls --from-beginning --bootstrap-server localho
 This consumer will provide output as show in the screenshot below.
 ### Kafka Consumer Console Output
 
-![kafka consumer output](https://github.com/Sichon3/Data-Streaming-Nanodegree-SF-Crime-Data-Project-Files/blob/master/Progress%20ReportV2.PNG)
+![kafka consumer output](https://github.com/Sichon3/Data-Streaming-Nanodegree-SF-Crime-Data-Project-Files/blob/master/Kafka%20Consumer%20Console%20OutputV2.PNG)
+
 
 
 4. Start Apache Spark Structured Streaming consumer:
@@ -49,7 +50,7 @@ spark-submit --packages org.apache.spark:spark-sql-kafka-0-10_2.11:2.3.4 --maste
 ### Progress Reporter
 Screenshot of the progress reporter after executing a Spark job.
 
-![kafka consumer output](https://github.com/Sichon3/Data-Streaming-Nanodegree-SF-Crime-Data-Project-Files/blob/master/Kafka%20Consumer%20Console%20OutputV2.PNG)
+![kafka consumer output](https://github.com/Sichon3/Data-Streaming-Nanodegree-SF-Crime-Data-Project-Files/blob/master/Progress%20ReportV2.PNG)
 
 
 ## Questions
