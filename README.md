@@ -48,7 +48,7 @@ spark-submit --packages org.apache.spark:spark-sql-kafka-0-10_2.11:2.3.4 --maste
 
 
 ### Progress Reporter
-Screenshot of the progress reporter after executing a Spark job.
+Screenshot of the progress reporter after executing the Spark job.
 
 ![kafka consumer output](https://github.com/Sichon3/Data-Streaming-Nanodegree-SF-Crime-Data-Project-Files/blob/master/Progress%20ReportV2.PNG)
 
