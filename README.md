@@ -54,7 +54,7 @@ Screenshot of the progress reporter after executing the Spark job.
 
 
 ### Spark Streaming UI
-Screenshot of the progress reporter after executing the Spark job.
+Screenshot of the Spark Streaming UI 
 
 ![kafka consumer output](https://github.com/Sichon3/Data-Streaming-Nanodegree-SF-Crime-Data-Project-Files/blob/master/Progress%20ReportV2.PNG)
 
