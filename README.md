@@ -50,13 +50,13 @@ spark-submit --packages org.apache.spark:spark-sql-kafka-0-10_2.11:2.3.4 --maste
 ### Progress Reporter
 Screenshot of the progress reporter after executing the Spark job.
 
-![kafka consumer output](https://github.com/Sichon3/Data-Streaming-Nanodegree-SF-Crime-Data-Project-Files/blob/master/Progress%20ReportV2.PNG)
+![Progress Reporter](https://github.com/Sichon3/Data-Streaming-Nanodegree-SF-Crime-Data-Project-Files/blob/master/Progress%20ReportV2.PNG)
 
 
 ### Spark Streaming UI
 Screenshot of the Spark Streaming UI 
 
-![kafka consumer output](https://github.com/Sichon3/Data-Streaming-Nanodegree-SF-Crime-Data-Project-Files/blob/master/Progress%20ReportV2.PNG)
+![Spark Streaming UI](https://github.com/Sichon3/Data-Streaming-Nanodegree-SF-Crime-Data-Project-Files/blob/master/Spark%20Streaming%20UI%20V2.PNG)
 
 
 ## Questions
