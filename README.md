@@ -18,12 +18,12 @@ run the following commands in seperate Terminals:
 
 
 1. Start Zookeeper and Kafka
+The `config` directory includes configuration files for  Zookeeper & Kafka. Modify them first
 ```
 bin/zookeeper-server-start.sh config/zookeeper.properties
 bin/kafka-server-start.sh config/server.properties
 ```
 
-The `config` directory includes configuration files for  Zookeeper & Kafka.
 
 2. Start  producer server to read JSON data and write to a Kafka topic:
 ```
