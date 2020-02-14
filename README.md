@@ -14,11 +14,11 @@ In this project I use Apache Spark Structured Streaming to analyze crimes in the
 ./start.sh
 ```
 
-run the following commands in seperate Terminals:
-
 
 1. Start Zookeeper and Kafka
-The `config` directory includes configuration files for  Zookeeper & Kafka. Modify them first
+
+The `config` directory includes configuration files for  Zookeeper & Kafka. Modify them first then run the following commands in seperate Terminals:
+
 ```
 bin/zookeeper-server-start.sh config/zookeeper.properties
 bin/kafka-server-start.sh config/server.properties
