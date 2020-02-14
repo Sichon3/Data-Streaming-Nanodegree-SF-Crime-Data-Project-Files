@@ -67,5 +67,11 @@ The latency affects throughput, since the execution of the next batch waits unti
 
 2. What were the 2-3 most efficient SparkSession property key/value pairs? Through testing multiple variations on values, how can you tell these were the most optimal?
 
-We can monitor processedRowsPerSecond and thus see the most optimal variation.
-spark.default.parallelism - The default number of partitions in RDDs returned by transformations spark.streaming.kafka.maxRatePerPartition - Maximum rate at which data will be read from each kafka partition
+To find the most optimal variation we can test multiple variations and see wish providing the largest possible value for `processedRowsPerSecond`.
+
+  To increase `processedRowsPerSecond` we can modify following settings:
+  * `spark.default.parallelism`: total number of cores on all executor nodes.
+
+  * `spark.sql.shuffle.partitions`:  number of partitions to use when shuffling data for joins or aggregations. 
+
+  * `spark.streaming.kafka.maxRatePerPartition`:  maximum rate at which data will be read from each Kafka partition. 
